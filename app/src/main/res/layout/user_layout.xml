@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sadik"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:background="@drawable/edt_background"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/txtName"
+            android:layout_marginTop="5dp"
+            android:background="@color/black"/>
+
+
+</RelativeLayout>

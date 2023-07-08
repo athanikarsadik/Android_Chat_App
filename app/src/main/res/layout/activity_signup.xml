@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="125dp"
+        android:layout_height="178dp"
+        android:src="@drawable/cat_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"/>
+
+    <EditText
+        android:id="@+id/edit_userName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="11dp"
+        android:layout_marginTop="18dp"
+        android:layout_below="@id/app_logo"
+        android:hint="Enter Name"
+        android:layout_marginLeft="28dp"
+        android:background="@drawable/edt_background"
+        android:layout_marginRight="28dp"/>
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="11dp"
+        android:layout_marginTop="18dp"
+        android:layout_below="@id/edit_userName"
+        android:hint="Enter Email"
+        android:layout_marginLeft="28dp"
+        android:background="@drawable/edt_background"
+        android:layout_marginRight="28dp"/>
+    <EditText
+        android:id="@+id/edit_pass"
+        android:layout_width="match_parent"
+        android:paddingLeft="11dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="18dp"
+        android:layout_below="@id/edit_email"
+        android:hint="Enter Password"
+        android:background="@drawable/edt_background"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"/>
+
+    <Button
+        android:id="@+id/signup_btn"
+        android:layout_width="150dp"
+        android:background="@drawable/btn_backgrnd"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_pass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:text="SIGN UP"
+        />
+
+</RelativeLayout>
